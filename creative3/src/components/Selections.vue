@@ -99,9 +99,14 @@ h3 {
     margins: auto;
 }
 .picture {
-  /* max-width: 150px;*/
-   width: 100px;
-   display: inline-block;
+    max-height: 80px; 
+   width: 100px; 
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+    grid-template-columns: 1fr 1fr;
+
+
 }
 
 </style>

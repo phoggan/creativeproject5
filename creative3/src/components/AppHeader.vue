@@ -6,9 +6,10 @@
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/Selections">Selections</router-link></li>
         <li><router-link to="/Reviews">Reviews</router-link></li>
-       
+        <li><router-link to="/Orders">Order Here</router-link></li>       
     </ul>   
     </nav>
+
 </template>
 
 <script>

@@ -14,7 +14,8 @@
        <div class="right">
            <a href = "https://www.flickr.com/photos/mcauliflower/307387047/in/photolist-tarsF-bNmg7v-ddqYSQ-ahiE3o-nuYSGd-e1vF5S-6WkPYq-czFtFy-a99txN-7opsf-9qe9WG-8rfaY1-9oDtae-52A1in-bHAw9p-aocotv-9HUm8h-avi96v-REXfxC-fTZhFN-egnUZ4-bX9BkT-823HLk-ax6EtU-dNMK9P-g7X4zc-9VBZy2-9ohpYB-9WpZD3-pjevzn-4hXsCz-cWfrqN-dnRQix-b6HESP-qCA1Ko-a8wu64-9wvv23-9ebHYv-btxLC6-9pW49J-d1uzfw-9bWrma-QRZ4vi-9r9c9n-GHB9F5-cnbQuq-jissvG-9Wnmmh-apr595-ovKYzi"> <img v-bind:src="imagePath2" alt="Chocolate"/> </a>
        </div>
-   </div> 
+   </div>
+   <a href = "https://github.com/phoggan/creativeproject4">github</a> 
     </div>
 </template>
 
@@ -50,6 +51,7 @@
  }
  img {
      width: 70%;
+    max-height: 570px;
  }
 .doubleGrid {
     display:grid;
