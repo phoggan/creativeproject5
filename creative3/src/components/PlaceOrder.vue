@@ -119,6 +119,7 @@ h1 {
 }
 h2 {
     font-family: 'Apple Chancery';
+    margin: 60px;
 }
 
 li {
