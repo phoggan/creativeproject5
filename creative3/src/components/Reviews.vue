@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Reviews</h1>
-    <h2>{{ name }}</h2> 
+    <!--   <h2>{{ name }}</h2> -->
   
   
   <p>I absolutely loved my Totally Not Strawberry ice cream. The fact that it was blue instead of red just made it so much better  -  Davy Jones</p>

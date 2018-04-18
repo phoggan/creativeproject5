@@ -25,13 +25,20 @@
  }
  nav {
      display: grid;
+     top: 30px;
  }
  ul {
      list-style-type:none;
      margin:0;
      padding:0;
  }
-
+ #menu {
+    margin-top: 40px;
+ }
+ #menu a:link {
+    text-decoration: none;
+    color: black;
+}
  /*Create a horizontal list with spacing*/
  li {
      display:inline-block;
@@ -46,8 +53,8 @@
      height: 50px;
      text-align: center;
      line-height: 50px;
-     color: blue;
-     background: #ffe6ff;
+     color: black;
+     background: #ffe9ff;
      width: 150px;
      position: relative;
      font-family: 'Gill Sans';

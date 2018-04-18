@@ -18,7 +18,7 @@
             <p><i><b>Just like normal, but blue instead!</b></i></p>
             <p><i><b>Who likes that weird green color? Try our purple mint instead</b></i></p>
         </div>
-        <div class="picture">
+<!--        <div class="picture">
             <h3>Pictures</h3>
             <a href = "https://www.flickr.com/photos/vegan-baking/6020447714/in/photolist-ab1nmE-4H9MJg-8sEr78-hxmCUG-6RqRgz-4qLeNp-2ape7B-2fMpqm-4oNwZc-5fjj24-y5xx5-7h2kWT-79fBxM-oA9DFY-FLjR7-aorszn-21q8E-dXnNH-4aj7jp-5G4P4Z-6qhGcW-6qhFL9-6qdx8v-6qhFis-3YT1tX-33fT32-6quxyD-LdVREs-6PeivY-8KCPR-9YH43t-4B3TnW-8DXEzU-8DXF6m-81VX6z-9yDhzz-8tuLWx-5fjjb6-5fjjkn-aAKmXj-27XUMd-U8R2yB-f3LTYw-5GL9Eo-d2jPwy-8gDXDp-8DXFoQ-8DUxKt-8DUyAt-6tnT6f"> <img class ="picture" v-bind:src="imagePath" alt="Vanilla"/>
                            </a>
@@ -26,7 +26,7 @@
                            <img class = "picture" v-bind:src="imagePath3" alt = "Blue"/>     
                            <img class = "picture" v-bind:src="imagePath4" alt = "Purple"/>
                        </div> 
-    
+                       --> 
     </div>
     </div>
 </template>
@@ -74,7 +74,7 @@ h3 {
     display:grid;
     grid-template-areas:
         "name description picture";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-row-gap: 50px;
     grid-template-rows: 500px;
     }
@@ -97,6 +97,9 @@ h3 {
     text-align: center;
     grid-area: description;
     margins: auto;
+}
+.description p {
+    font-size: 22px;
 }
 .picture {
     max-height: 80px; 
